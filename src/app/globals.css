@@ -1,0 +1,27 @@
+:root {
+  --font-color:#0066CC;
+  --font-color-a: #545454;
+  --border-redios: 0px 70px 0px 70px ;
+  --box:rgb(235 235 235);
+  --shado: 1px 1px 6px #0072ffad;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul,li{
+  list-style: none;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,html{
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+

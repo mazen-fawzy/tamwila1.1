@@ -1,0 +1,45 @@
+.header>a>img{
+  width: auto;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  margin: 25px;
+}
+
+.spage-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: right; /* محاذاة النص إلى اليمين */
+}
+
+.page-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section-title {
+  color: #555;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.paragraph {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+.imgewoman{
+  width: 100%;
+  height: auto;
+  background-image: url(../../../imge/female-executive-enjoying-her-job.jpg);
+  height: 100vb;
+  background-size: cover;
+}

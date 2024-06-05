@@ -1,0 +1,15 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login>iframe{
+    width: 100%;
+    height: 100vb;
+    background-color: var(--box);
+    position: relative;
+    
+}
+

@@ -1,0 +1,92 @@
+.Mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:60px ;
+    margin-right:60px ;
+    margin-top: 40px;
+
+
+}
+
+.mail{
+    width: calc(100% / 3);
+    height: auto;
+    padding: 40px;
+    margin: 20px;
+    background-color: var(--box);
+    border-radius: 0 60px 0 60px;
+    -webkit-border-radius: 0 60px 0 60px;
+    -moz-border-radius: 0 60px 0 60px;
+    -ms-border-radius: 0 60px 0 60px;
+    -o-border-radius: 0 60px 0 60px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--shado);
+
+
+}
+
+.mail>a{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--font-color);
+    text-align: center;
+}
+
+/* styles.css */
+
+/* mail.css */
+
+.Mail .mail {
+    transition: opacity 1s ease-in-out;
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+  
+  .Mail.scrolled .mail {
+    opacity: 1; /* شفافية الروابط عند التمرير */
+  }
+  
+
+
+  @media (max-width: 767px){
+    .Mail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left:0px ;
+        margin-right:0px ;
+        margin-top: 0px;
+    
+    
+    }
+    
+    .mail{
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        margin: 8px;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+      
+
+
+    
+    
+    }
+    
+    .mail>a{
+        font-size: 14px;
+
+    }
+    
+    
+      
+  }

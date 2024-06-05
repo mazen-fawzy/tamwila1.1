@@ -1,0 +1,107 @@
+
+  
+  .sec-servic-box-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
+  }
+
+  
+
+  .lenth {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+
+  .sec-servic-box{
+    margin-top: 20px;
+    background-color:var(--box) ;
+    border-radius: 0 60px 0 60px;
+    -webkit-border-radius: 0 60px 0 60px;
+    -moz-border-radius: 0 60px 0 60px;
+    -ms-border-radius: 0 60px 0 60px;
+    -o-border-radius: 0 60px 0 60px;
+    padding: 40px;
+    width: calc(100% / 3);
+    margin: 10px;
+    height:auto ;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: var(--shado);
+
+    
+    
+}
+
+
+.sec-servic-box {
+  opacity: 0; /* العنصر شفاف في البداية */
+  transition: opacity 0.5s ease-in-out; /* تطبيق تأثير تحول الشفافية */
+}
+
+.sec-servic-box>span , .sec-servic-box>a{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--font-color);
+}
+
+.fade-in {
+  opacity: 1; /* عندما يتم عرض العنصر في الشاشة، يصبح غير شفاف */
+}
+
+
+
+@media (max-width: 767px){
+  
+  
+  .sec-servic-box-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+  }
+
+
+  .sec-servic-box{
+    margin-top: 8px;
+    padding: 20px;
+    width: auto;
+    margin: 2px;
+    line-height: 40px;
+    height: auto;
+
+    
+    
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .sec-servic-box{
+    margin-top: 8px;
+    padding: 30px;
+    width: auto;
+    margin: 8px;
+    line-height: 40px;
+    height: auto;
+
+    
+    
+}
+}
+

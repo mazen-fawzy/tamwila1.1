@@ -1,0 +1,45 @@
+/* about.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:20px ;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .features {
+    margin-top: 40px;
+  }
+  
+   h2 {
+    color: #007bff;
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+  }
+  
+  .final-paragraph {
+    margin-top: 40px;
+    text-align: justify;
+  }
+  

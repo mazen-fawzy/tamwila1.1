@@ -1,0 +1,64 @@
+.MainPoduct{
+    width: 60%;
+    height: auto;
+    padding: 40px;
+    border-radius: 0 60px 0 60px;
+    -webkit-border-radius: 0 60px 0 60px;
+    -moz-border-radius: 0 60px 0 60px;
+    -ms-border-radius: 0 60px 0 60px;
+    -o-border-radius: 0 60px 0 60px;
+    background-color: var(--box);
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: var(--shado);
+}
+
+.MainPoduct{
+    
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.MainPoduct>a{
+    color: var( --font-color);
+    font-size: 16px;
+    font-weight: 500;
+
+
+}
+
+
+.MainPoduct {
+    opacity: 0; /* العنصر شفاف في البداية */
+    transition: opacity 0.5s ease-in-out; /* تطبيق تأثير تحول الشفافية */
+  }
+  
+  .fade-in {
+    opacity: 1; /* عندما يتم عرض العنصر في الشاشة، يصبح غير شفاف */
+  }
+  
+
+  @media (max-width: 767px){
+    .MainPoduct{
+        width: auto;
+        padding: 30px;
+        margin: 8px;
+
+    }
+    
+    .MainPoduct{
+        
+        font-size: 14px;
+        line-height: 40px;
+    }
+    
+    .MainPoduct>a{
+        font-size: 14px;
+        font-weight: 500;
+    
+    
+    }
+  }

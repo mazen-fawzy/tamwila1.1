@@ -1,0 +1,11 @@
+.Headr{
+    height: auto;
+    background-color: rgb(223 236 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Headr>a>img{
+    height: 50px;
+    width: auto;
+}
