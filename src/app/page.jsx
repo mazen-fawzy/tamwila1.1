@@ -14,7 +14,6 @@ import VideoPage from "../../componants/video";
 import Cources from "../../componants/Cources";
 import Head from "next/head";
 
-
 export default function Home() {
   const [isCenterHeaderVisible, setCenterHeaderVisible] = useState(false);
 
@@ -25,6 +24,18 @@ export default function Home() {
   return (
     <> 
     <Head>
+      {/* Google Tag Manager */}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-K64WR1DK8T"></script>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-K64WR1DK8T');
+        `
+      }} />
+      {/* End Google Tag Manager */}
+      
       <meta name="description" content="تمويلة tmwila، الموقع الرائد لدعم الشركات بالمنتجات والخدمات المبتكرة. استكشف مجموعة متنوعة من الحلول لتعزيز نمو وتطوير أعمالك. انضم الآن للاستفادة من أفضل الأدوات المتاحة." />
 
     </Head>
@@ -156,7 +167,6 @@ export default function Home() {
         <Madia/>
       </div> 
      
-
     </main>
     </>
   );
