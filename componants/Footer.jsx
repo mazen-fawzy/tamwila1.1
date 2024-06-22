@@ -12,7 +12,7 @@ const Footer = () => {
           </li>
           <li>
             {" "}
-            <Link href={"https://www.tiktok.com/@tamwila1?lang=en"}>
+            <Link href={"https://www.tiktok.com/@tamwilaegy"}>
               {" "}
               تيكتوك
             </Link>
